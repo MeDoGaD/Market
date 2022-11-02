@@ -1,0 +1,14 @@
+server :
+  host : 8080
+
+spring :
+  data :
+    mongodb :
+      database : Market
+      port : 27017
+      host : localhost
+
+auth :
+  expiration: 604800
+  secret: MarketApp123
+  header: Authorization
